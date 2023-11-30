@@ -6,7 +6,7 @@ box-sizing: border-box;
 
 
 body {
-    background: #f3a11d;
+    background:#f3a11d;
 
     color:#401A0D;
     font-family: american typewriter;
@@ -20,7 +20,6 @@ body {
 
 h1{
     border-radius: 15px;
-    background-color: #8FA690;
     color: #401A0D;
 }
 img {
@@ -37,7 +36,7 @@ display: flex;
 }
 
 nav ul li {
-    background-color: #8FA690;
+    background-color: #F2E8C9;
     color: #401A0D;
     display: flex; align-items: center;
 }
@@ -75,4 +74,44 @@ head title {
 main img{
     display: flex;
     justify-content: space-around;
+}
+
+section{
+    background:#f3a11d;
+    border: 10px black;
+    display: flex;
+    justify-content: space-between;
+}
+
+section div {
+    padding: 20px;
+    width: 60vw;
+}
+
+.links {
+background: rgb(2, 2, 66);
+color: white;
+border-radius: 7%;
+}
+
+.rechts {
+background: rgba(215, 66, 66, 0.79);
+color: #401A0D;
+border-radius: 7%;
+}
+
+.mooie {
+    background: rgba(128, 0, 128, 0.785);
+    color: white;
+    border-radius: 7%;
+}
+
+.vinterland {
+    background: whitesmoke;
+    color: black;
+    border-radius: 7%;
+}
+
+.hpstone {
+    background: ;
 }
