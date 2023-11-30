@@ -96,7 +96,7 @@ border-radius: 7%;
 
 .rechts {
 background: rgba(215, 66, 66, 0.79);
-color: #401A0D;
+color: black;
 border-radius: 7%;
 }
 
@@ -114,5 +114,42 @@ border-radius: 7%;
 
 .hpstone {
     background: lightgray;
+    border-radius: 7%;
+}
+
+.muggenland {
+    background: #b1cdb2;
+    border-radius: 7%;
+}
+
+.volwassenwordenisoptioneel {
+    background: rgb(242, 156, 147);
+    border-radius: 7%;
+}
+
+.gonegirl {
+    background: rgb(248, 121, 31);
+    border-radius: 7%;
+}
+
+.grumpus {
+    background: rgba(240, 43, 43, 0.805);
+    border-radius: 7%;
+    color: black;
+}
+
+.angstigemensen {
+    background: rgb(82, 188, 249);
+    border-radius: 7%;
+}
+
+.chamberofsecrets {
+    background: rgba(6, 124, 6, 0.738);
+    border-radius: 7%;
+    color: black;
+}
+
+.genderswapped {
+    background: rgb(195, 228, 249);
     border-radius: 7%;
 }
