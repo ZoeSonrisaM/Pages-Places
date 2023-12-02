@@ -69,6 +69,7 @@ footer {
     color: #401A0D;
     display: flex;
     justify-content: center;
+    margin-top: 30%;
 }
 
 head title {
@@ -159,4 +160,9 @@ border-radius: 7%;
 .genderswapped {
     background: rgb(195, 228, 249);
     border-radius: 7%;
+}
+
+.homepagina {
+    display: flex;
+    
 }
