@@ -40,7 +40,7 @@ border-radius: 25%;
 }
 
 nav ul li {
-    background-color: #ffe3b5;
+    background-color: #f4debbc9;
     color:#401A0D;
     display: flex; align-items: center;
 }
@@ -109,7 +109,7 @@ section div {
     margin-top: 2%;
     margin-inline: 3%;
     margin-bottom: 2%;
-    border-radius: white;
+    border-radius: 25%;
 }
 
 .links {
@@ -179,8 +179,7 @@ border-radius: 7%;
 }
 
 .homepagina {
-    display: flex;
-    
+    flex-flow: wrap;
 }
   
   .button {
@@ -201,9 +200,25 @@ border-radius: 7%;
     border-color:  #F2E8C9;
     border-bottom-color:  #F2E8C9;
   }
-
-  .coolman:hover {
-    transition: all 2s ease;
-    transform: rotate(250deg);
-}
   
+.coolman {
+    display: flexbox; /*ik heb hier flexbox gebruikt zodat de tekst mooi in het blokje zou passen, met alleen flex ging de tekst uit de box*/
+    background-color: #BF8049; /*kleur van het blokje*/
+    padding: 60px; /*dit zorgt ervoor dat het bruine blokje om de tekst heen groter wordt*/
+
+}
+
+.coolman h2{
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.coolman img{
+    margin-right: 50px;
+    margin-left: 120px;
+}
+
+.coolman p{
+    margin-right: 200px;
+    margin-left: 100px;
+}
