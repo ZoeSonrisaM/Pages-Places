@@ -1,4 +1,4 @@
-*{
+* {
 margin: 0;
 padding: 0;
 box-sizing: border-box;
@@ -17,7 +17,7 @@ body {
 
 }
 
-h1{
+h1 {
     display: flex;
     justify-content: center;
     border-radius: 15px;
@@ -34,28 +34,23 @@ li {
 }
 
 nav ul {
+    display: flex;
     color: #BF8049;
-display: flex;
-border-radius: 25%;
-}
-
-nav ul li {
-    background-color: #f4debbc9;
-    color:#401A0D;
-    display: flex; align-items: center;
-}
-
-nav ul {
+    border-radius: 25%;
     flex-direction: row;
     justify-content: space-between;
     color: #fceed8;
 }
 
 nav ul li {
+    background-color: #f4debbc9;
+    color:#401A0D;
+    display: flex; 
+    align-items:flex-end;
     flex-basis: 300vw;
 }
 
-nav li img{
+nav li img {
     width: 150px;
     height: 150px;
 }
@@ -90,13 +85,13 @@ head title {
     text-align: center;
 }
 
-main img{
+main img {
     background-color: white;
     display: flex;
     justify-content: space-around;
 }
 
-section{
+section {
     background:#fceed8;
     border: 10px black;
     display: flex;
@@ -208,17 +203,23 @@ border-radius: 7%;
 
 }
 
-.coolman h2{
+.coolman h2 {
     margin-top: 20px;
     margin-left: 100px;
 }
 
-.coolman img{
+.coolman img {
     margin-right: 50px;
     margin-left: 120px;
 }
 
-.coolman p{
+.coolman p {
     margin-right: 200px;
     margin-left: 100px;
+}
+
+.openingtekst {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 8%;
 }
