@@ -61,7 +61,9 @@ nav a {
     border-radius: 20%;
     padding: 25px;
     transition: background-color 350ms ease; /*notitie*/
-    box-shadow: 2px 2px 2px #8FA690
+    box-shadow: 2px 2px 2px #8FA690;
+    list-style-type: none;
+    text-decoration: none;
 }
 
 nav a:hover {
@@ -186,6 +188,7 @@ border-radius: 7%;
     border-radius: 0.3em;
     text-decoration: none;
     background-color:  #401A0D;
+    margin-left: 60px;
     transition: all 800ms ease; /* PROPERTY DURATION EFFECT */
   }
   
@@ -202,7 +205,6 @@ border-radius: 7%;
     padding: 60px; /*dit zorgt ervoor dat het bruine blokje om de tekst heen groter wordt*/
 
 }
-
 .coolman h2 {
     margin-top: 20px;
     margin-left: 100px;
@@ -220,8 +222,12 @@ border-radius: 7%;
 
 .openingtekst {
     display: flex;
-    margin-top: 5%;
+    margin-top: 2%;
     margin-bottom: 8%;
+}
+
+.titelpaginawinkels {
+    margin-top: 5%;
 }
 
 html::-webkit-scrollbar {
@@ -244,3 +250,33 @@ html::-webkit-scrollbar-thumb {
     background-size: 35px;
 }
 
+.de-kleine-titel {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.hatchards {
+    color:#401A0D;
+    background:whitesmoke;
+    border: double;
+}
+
+.teksthatchards {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+.fotohatchards {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+.titelhatchards {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
