@@ -38,15 +38,12 @@ nav ul {
     border-radius: 25%;
     flex-direction: row;
     justify-content: space-between;
-    color: #fceed8;
 }
 
 nav ul li {
     background-color: #f4debbc9;
     color: #401A0D;
-    display: flex; 
-    align-items: flex-end;
-    flex-basis: 300vw;
+    list-style-type: none;
 }
 
 nav li img {
@@ -187,12 +184,12 @@ section div {
 }
 
 .homepagina img {
-width: 20vw;
-height: 40vh;
-display: flex;
-align-items: center;
-margin-left: 28%;
-margin-top: 7%;
+    width: 20vw;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    margin-left: 28%;
+    margin-top: 7%;
 }
 
 .homepagina p {
@@ -228,8 +225,9 @@ margin-top: 7%;
     display: flexbox; /*ik heb hier flexbox gebruikt zodat de tekst mooi in het blokje zou passen, met alleen flex ging de tekst uit de box*/
     background-color: #8FA690; /*kleur van het blokje*/
     padding: 60px; /*dit zorgt ervoor dat het bruine blokje om de tekst heen groter wordt*/
-
+    margin-top: 7%;
 }
+
 .coolman h2 {
     margin-top: 20px;
     margin-left: 100px;
@@ -253,26 +251,6 @@ margin-top: 7%;
 
 .titelpaginawinkels {
     margin-top: 5%;
-}
-
-html::-webkit-scrollbar {
-    width: 20px;
-}
-        
-html::-webkit-scrollbar-track {
-    border-radius: 8px;
-    background-image: url("https://i.ibb.co/5150925/tracks.png");
-    background-position: -5px;
-    background-repeat: repeat-y;
-    background-size: 50px;
-}
-        
-html::-webkit-scrollbar-thumb {
-    border-radius: 8px;
-  background-image: url("https://i.ibb.co/q95CBdZ/train.png");
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: 35px;
 }
 
 .de-kleine-titel {
