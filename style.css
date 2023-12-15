@@ -97,6 +97,7 @@ section {
 
 div section {
     display: flex;
+    align-content: flex-start;
     padding: 20px;
     width: 30vw;
     margin-top: 2%;
@@ -126,10 +127,6 @@ div section img {
     background: rgba(215, 66, 66, 0.79);
     color: black;
     border-radius: 7%;
-}
-
-.rechts h2 {
-    margin-top: -50px;
 }
 
 .mooie {
