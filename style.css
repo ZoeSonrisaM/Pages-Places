@@ -255,7 +255,7 @@ section div {
 
 .de-kleine-titel {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     margin-bottom: 5%;
     margin-top: 5%;
 }
@@ -293,4 +293,11 @@ section div {
 
 .zwolle img {
     width: 900px;
+}
+
+.steden {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 5%;
 }
