@@ -116,11 +116,6 @@ div section img {
     margin-bottom: 20px;
 }
 
-div section:nth-child(3) h2{
-    color: red;
-    margin-top: -20px;
-
-}
 .links {
     background: rgb(2, 2, 66);
     color: white;
@@ -131,6 +126,10 @@ div section:nth-child(3) h2{
     background: rgba(215, 66, 66, 0.79);
     color: black;
     border-radius: 7%;
+}
+
+.rechts h2 {
+    margin-top: -50px;
 }
 
 .mooie {
