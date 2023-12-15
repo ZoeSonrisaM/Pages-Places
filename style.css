@@ -13,7 +13,6 @@ body {
     border: 5px blue;
     padding: 5px;
     margin-top: 10px;
-    border-radius: 100px;
 }
 
 h1 {
@@ -184,32 +183,13 @@ div section img {
 }
 
 .homepagina {
-    flex-flow: wrap;
-    align-items: center;
-    justify-content: center;
-    background-color: #BF8049;
-    color: #401A0D;
-    border-radius: 100%;
-    margin-left: 5%;
-    padding-bottom: 20em;   
-}
-
-.homepagina img {
-    width: 20vw;
-    height: 40vh;
     display: flex;
     align-items: center;
-    margin-left: 28%;
-    margin-top: 7%;
-}
-
-.homepagina p {
-    margin-left: 25%;
-    margin-right: 15%;
-}
-
-.homepagina h2 {
-    margin-left: 20%;
+    color: #401A0D;
+    padding-bottom: 20em;   
+    flex-wrap: wrap;
+    margin-top: 30em;
+    background-image: url('images/achtergrond.jpeg');
 }
 
 .button {
@@ -234,24 +214,10 @@ div section img {
   
 .coolman {
     display: flex;
+    flex-wrap: nowrap;
     background-color: #8FA690; /*kleur van het blokje*/
     padding: 60px; /*dit zorgt ervoor dat het bruine blokje om de tekst heen groter wordt*/
     margin-top: 7%;
-}
-
-.coolman h2 {
-    margin-top: 20px;
-    margin-left: 100px;
-}
-
-.coolman img {
-    margin-right: 50px;
-    margin-left: 120px;
-}
-
-.coolman p {
-    margin-right: 200px;
-    margin-left: 100px;
 }
 
 .openingtekst {
