@@ -199,12 +199,17 @@ div section img {
   
 .coolman {
     display: flex;
-    flex-wrap: nowrap;
+    flex-direction: column;
     background-color: #8FA690; /*kleur van het blokje*/
     padding: 60px; /*dit zorgt ervoor dat het bruine blokje om de tekst heen groter wordt*/
     margin-top: 7%;
 }
 
+.coolman img {
+    width: 37vw;
+    height: 80vh;
+    border-radius: 50%;
+}
 .vakken {
     color: #401A0D;
     background: #8fa690cf;
