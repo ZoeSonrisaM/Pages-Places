@@ -239,7 +239,7 @@ div section img {
     width: 100vw;
 }
 
-h2 {
+.winkels h2 {
     display: flex;
     justify-content: center;
     background-color: #8FA690;
