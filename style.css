@@ -22,6 +22,8 @@ h1 {
     color: #401A0D;
     margin-top: 5%;
     background: #fceed8;
+    font-size: 3em;
+    margin-bottom: 5%;
 }
 img {
     max-width: 100%;
@@ -99,11 +101,13 @@ div section {
     margin-bottom: 2%;
     border-radius: 25%;
     flex-wrap: wrap;
+    flex-direction: column;
 }
 
 div {
     display: flex;
     flex-wrap: nowrap;
+    align-items: flex-start;
 }
 
 div section img {
@@ -189,10 +193,14 @@ div section img {
     margin-top: 10%;
 }
 
+.homepagina p{
+    margin: 0em 20em;
+    text-align: center;
+}
+
 .homepagina img {
+    width: 30em;
     border-radius: 50%;
-    width: 20vw;
-    height: 30vh;
     margin-top: 6em;
     margin-bottom: 8em;
 }
@@ -200,6 +208,7 @@ div section img {
 .coolman {
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: #8FA690; /*kleur van het blokje*/
     padding: 60px; /*dit zorgt ervoor dat het bruine blokje om de tekst heen groter wordt*/
     margin-top: 7%;
@@ -222,6 +231,10 @@ div section img {
     padding-bottom: 2%;
 }
 
+.vakken h4+p{
+    text-align: center;
+}
+
 .winkels h2 {
     display: flex;
     justify-content: center;
@@ -229,14 +242,22 @@ div section img {
     padding-top: 1%;
     padding-bottom: 1%;
     margin-top: 7%;
+    font-size: 2em;
 }
 
-.winkels p {
-    display: flex;
-    justify-content: center;
+.winkels p{
+    text-align: center;
+    margin: 1em;
 }
 
-h1 {
-    font-size: 3em;
-    margin-bottom: 6%;
+h4 {
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.5em;
+    margin-top: 0.7em;
+}
+
+h2 {
+    margin-top: 0.5em;
+    margin-bottom: 1em;
 }
