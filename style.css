@@ -181,8 +181,20 @@ div section img {
     display: flex;
     align-items: center;
     color: #401A0D;
-    padding-bottom: 20em;   
+    padding-bottom: 10em;   
     flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #BF8049;
+    border-radius: 60%;
+    margin-top: 10%;
+}
+
+.homepagina img {
+    border-radius: 50%;
+    width: 20vw;
+    height: 30vh;
+    margin-top: 6em;
+    margin-bottom: 8em;
 }
   
 .coolman {
@@ -191,16 +203,6 @@ div section img {
     background-color: #8FA690; /*kleur van het blokje*/
     padding: 60px; /*dit zorgt ervoor dat het bruine blokje om de tekst heen groter wordt*/
     margin-top: 7%;
-}
-
-.openingtekst {
-    display: flex;
-    margin-top: 2%;
-    margin-bottom: 8%;
-    background-color: #bf80499e;
-    padding-top: 1%;
-    padding-bottom: 2%;
-    border-radius: 10%;
 }
 
 .vakken {
@@ -221,8 +223,15 @@ div section img {
     background-color: #8FA690;
     padding-top: 1%;
     padding-bottom: 1%;
+    margin-top: 7%;
+}
+
+.winkels p {
+    display: flex;
+    justify-content: center;
 }
 
 h1 {
     font-size: 3em;
+    margin-bottom: 6%;
 }
