@@ -217,16 +217,13 @@ div section img {
     display: flex;
     margin-top: 2%;
     margin-bottom: 8%;
+    background-color: #BF8049;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    border-radius: 6%;
 }
 
-.de-kleine-titel {
-    display: flex;
-    justify-content: flex-start;
-    margin-bottom: 5%;
-    margin-top: 5%;
-}
-
-.hatchards {
+.vakken {
     color: #401A0D;
     background: #8fa690cf;
     border: double;
@@ -234,15 +231,18 @@ div section img {
     margin-top: 7%;
     display: flex;
     flex-direction: column;
-}
-
-.steden {
-    display: flex;
-    justify-content: center;
-    margin-top: 10%;
-    margin-bottom: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .utrecht {
     width: 100vw;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    background-color: #8FA690;
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
