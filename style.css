@@ -184,26 +184,6 @@ div section img {
     padding-bottom: 20em;   
     flex-wrap: wrap;
 }
-
-.button {
-    font-size: 1.1em;
-    font-family: arial;
-    color:  beige;
-    padding: 0.5em;
-    border: 2px solid  #401A0D;
-    border-radius: 0.3em;
-    text-decoration: none;
-    background-color:  #401A0D;
-    margin-left: 60px;
-    transition: all 800ms ease; /* PROPERTY DURATION EFFECT */
-}
-  
-.button:hover {
-    background:  #F2E8C9;
-    color:  #401A0D;
-    border-color:  #F2E8C9;
-    border-bottom-color:  #F2E8C9;
-}
   
 .coolman {
     display: flex;
@@ -233,10 +213,6 @@ div section img {
     flex-direction: column;
     padding-top: 2%;
     padding-bottom: 2%;
-}
-
-.utrecht {
-    width: 100vw;
 }
 
 .winkels h2 {
