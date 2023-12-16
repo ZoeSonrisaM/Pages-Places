@@ -66,11 +66,6 @@ nav a:hover {
     background-color: #8FA690;
 }
 
-main img {
-    width: 400px;
-    height: 500px;
-}
-
 footer {
     background-color: #8FA690;
     color: #401A0D;
@@ -232,38 +227,13 @@ div section img {
 }
 
 .hatchards {
-    color: whitesmoke;
-    background: #401A0D;
+    color: #401A0D;
+    background: #8fa690cf;
     border: double;
     margin-bottom: 7%;
     margin-top: 7%;
-}
-
-.teksthatchards {
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 5px;
-    margin-bottom: 20px;
-}
-
-.fotohatchards {
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 20px;
-}
-
-.titelhatchards {
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 15px;
-}
-
-.waterstones img {
-    width: 650px;
-}
-
-.zwolle img {
-    width: 900px;
+    display: flex;
+    flex-direction: column;
 }
 
 .steden {
@@ -271,4 +241,8 @@ div section img {
     justify-content: center;
     margin-top: 10%;
     margin-bottom: 5%;
+}
+
+.utrecht {
+    width: 100vw;
 }
