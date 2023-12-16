@@ -197,10 +197,10 @@ div section img {
     display: flex;
     margin-top: 2%;
     margin-bottom: 8%;
-    background-color: #BF8049;
+    background-color: #bf80499e;
     padding-top: 1%;
     padding-bottom: 2%;
-    border-radius: 6%;
+    border-radius: 10%;
 }
 
 .vakken {
